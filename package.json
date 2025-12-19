@@ -1,0 +1,21 @@
+{
+  "name": "01-lista-tareas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file .env index",
+    "seed": "node --env-file .env seed/seed ",
+    "start": "node --env-file .env index"
+  },
+  "keywords": ["Express", "API", "MYSQL", "ORM", "tareas"],
+  "author": "Gabriel Acero",
+  "license": "ISC",
+  "description": "Es una API en Express que permite gestionar tareas de una forma eficiente",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "mysql2": "^3.16.0",
+    "sequelize": "^6.37.7"
+  }
+}
